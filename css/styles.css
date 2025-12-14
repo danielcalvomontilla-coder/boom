@@ -12,6 +12,38 @@ h1 {
   color: #2ecc71;
 }
 
-#result .red {
+#result .red, .red {
   color: #e74c3c;
+}
+
+.count {
+  color: green;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  margin: 0 auto;
+
+}
+
+.restart {
+  background-color: red;
+  color: green;
+  border-color: yellow;
+  width: 150px;
+  height: 35px;
+  margin-top: 15px;
+  cursor: grab;
+  border-radius: 7px;
+  box-shadow: 0 8 px 15px black;
+  font-size: medium;
+  transition: 3s;
+}
+
+.restart:hover {  
+  background-color: black;
+  color: white;
 }
